@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier Prime&display=swap');
+
+:root {
+    --width: 400px;
+    --font: 'Alegreya', serif;
+    --font-scale: 1.2em;
+    --background-color: #212121; /* #292929; */
+    --heading-color: #c84c33;
+    --text-color: #ffffff;
+    --link-color: #f1bf8e;
+    --visited-color: #c84c33;
+    --code-background-color: #545454; /* #242424; */
+    --code-color: #ffffff;
+    --blockquote-color: #ffffff;
+}
+
+body {
+    font-family: var(--font);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: var(--font);
+    color: var(--heading-color);
+}
+
+a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+strong, b {
+    color: var(--heading-color);
+}
+
+img {
+    max-width: 100%;
+	 background-color: #ffeeee;
+	 border-radius: 10px;
+}
+
+code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+}
