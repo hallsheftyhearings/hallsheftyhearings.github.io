@@ -1,7 +1,0 @@
-#!/bin/zsh
-for f in $(find .); do
-	git add $f
-done
-git commit -m "$1"
-git branch -M main
-git push -u origin main
